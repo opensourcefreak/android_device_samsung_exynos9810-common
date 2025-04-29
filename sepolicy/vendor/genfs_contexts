@@ -45,9 +45,5 @@ genfscon sysfs /devices/virtual/sec/led/led_blink                               
 genfscon sysfs /devices/virtual/sec/sensorhub/mcu_power                                                                   u:object_r:sysfs_sensorhub_writable:s0
 genfscon sysfs /devices/virtual/sensors/hrm_sensor/xtalk_code                                                             u:object_r:sysfs_sensors_writable:s0
 
-# kernel
-genfscon sysfs /kernel/gpu/gpu_max_clock                                                                                  u:object_r:sysfs_gpu_writable:s0
-genfscon sysfs /kernel/gpu/gpu_min_clock                                                                                  u:object_r:sysfs_gpu_writable:s0
-
 # firmware
-genfscon sysfs /firmware/devicetree/base/model_info-system_rev                                                            u:object_r:sysfs_modelinfo:s0
+#genfscon sysfs /firmware/devicetree/base/model_info-system_rev                                                            u:object_r:sysfs_modelinfo:s0

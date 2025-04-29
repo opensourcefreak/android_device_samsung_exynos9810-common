@@ -241,10 +241,10 @@ vendor/etc/plmn_se13.bin|6445f3c7ee35c59999de2fdd47c718048a3f550f
 -vendor/lib64/libsec-ril-dsds.so|9ff3afd48584969f8a7590ca0f534ceb5a7d87d1
 -vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|f63f4a658dec8e419f5316d3d0db086bdb17d595
 -vendor/lib64/libsemnativecarrierfeature.so|b9663215a8cae356b4ddf86790359beda9c30f47
--vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|4f803c313c74e161a871bac17581ee5f01d076ec
--vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|38bc33189382277cd9ea0a44d2f9a8a13e91bf49
--vendor/lib64/vendor.samsung.hardware.radio@2.0.so|4b2836fd3370945b0d8e7c3ab1c8ab45db819077
--vendor/lib64/vendor.samsung.hardware.radio@2.1.so|7d1d5a2c86ed493ab5eb1d177d59b0dfa21d6421
+vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|4f803c313c74e161a871bac17581ee5f01d076ec
+vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|38bc33189382277cd9ea0a44d2f9a8a13e91bf49
+vendor/lib64/vendor.samsung.hardware.radio@2.0.so|4b2836fd3370945b0d8e7c3ab1c8ab45db819077
+vendor/lib64/vendor.samsung.hardware.radio@2.1.so|7d1d5a2c86ed493ab5eb1d177d59b0dfa21d6421
 
 # Samsung SLSI IVA
 -vendor/lib/libiva_android_hal.so
