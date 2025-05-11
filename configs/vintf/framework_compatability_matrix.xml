@@ -15,13 +15,13 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
+    <!--hal format="aidl" optional="true">
         <name>android.hardware.biometrics.fingerprint</name>
         <interface>
             <name>IFingerprint</name>
             <instance>default</instance>
         </interface>
-    </hal>
+    </hal-->
     <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth.audio</name>
         <interface>
@@ -35,14 +35,6 @@
         <interface>
             <name>IBluetoothHci</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.camera.provider</name>
-        <version>2.0-5</version>
-        <interface>
-            <name>ICameraProvider</name>
-            <instance>legacy/0</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -225,14 +217,14 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <!--hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.biometrics.fingerprint</name>
         <version>3.0</version>
         <interface>
             <name>ISehBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
-    </hal>
+    </hal-->
     <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.health</name>
         <version>1.0</version>

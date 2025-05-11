@@ -30,16 +30,6 @@
         <fqname>@1.0::IBluetoothHci/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.camera.provider</name>
-        <transport>hwbinder</transport>
-        <version>2.5</version>
-        <interface>
-            <name>ICameraProvider</name>
-            <instance>legacy/0</instance>
-        </interface>
-        <fqname>@2.5::ICameraProvider/legacy/0</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.drm</name>
         <transport>hwbinder</transport>
         <fqname>@1.2::ICryptoFactory/widevine</fqname>
@@ -173,16 +163,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.3::ISoundTriggerHw/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.biometrics.fingerprint</name>
-        <transport>hwbinder</transport>
-        <version>3.0</version>
-        <interface>
-            <name>ISehBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@3.0::ISehBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.bluetooth</name>
