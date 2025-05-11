@@ -24,6 +24,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# API
+PRODUCT_SHIPPING_API_LEVEL := 26
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl:32 \
