@@ -122,7 +122,9 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss@2.0.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
+    libsqlite.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
