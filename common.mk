@@ -38,9 +38,12 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
-    libaudioroute \
+    libaudioroute.vendor \
     libtinyalsa \
-    libtinycompress
+    libtinycompress \
+    libprocessgroup.vendor \
+    libaudioproxy_shim \
+    libaboxpcmdump_shim
 
 PRODUCT_PACKAGES += \
     SamsungDAP
