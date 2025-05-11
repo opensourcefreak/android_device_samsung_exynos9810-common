@@ -304,7 +304,6 @@ vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-se
 -vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
 # Wi-Fi - N770FXXU8HWA2
-vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc|7e10bdb418353a269ae966ccc43b8444e2fd97e6
 vendor/firmware/bcm4361B2_murata.hcd|6ce1e63ad8ae52513e99d6ad561ca7dc53da5584
 vendor/firmware/bcm4361B2_semco.hcd|15e35d87f1b693a45fccdf7e8510d4c31b44ec3f
