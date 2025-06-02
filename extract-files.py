@@ -24,12 +24,16 @@ def lib_fixup_exynos9810_module(lib: str, partition: str, *args, **kwargs):
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
-    'camera.device@1.0-impl.so',
-    'camera.device@3.3-impl.so',
-    'camera.device@3.5-impl.so',
     'vendor.samsung.hardware.radio@2.0',
     'vendor.samsung.hardware.radio@2.1',
     ): lib_fixup_exynos9810_module,
+    (
+    'libvicom',
+    'libapex_cmn',
+    'libFrucSSMLib',
+    'libpredeflicker_native',
+    'libstagefright_bufferqueue_helper_vendor',
+    ): lib_fixup_remove,
 }  # fmt: skip
 
 namespace_imports = [
@@ -66,7 +70,6 @@ module = ExtractUtilsModule(
     'samsung',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
-    check_elf=False,
     namespace_imports=namespace_imports,
 )
 
