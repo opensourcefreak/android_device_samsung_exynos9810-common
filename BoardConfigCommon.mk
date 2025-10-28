@@ -100,6 +100,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4561305600
 BOARD_VENDORIMAGE_PARTITION_SIZE := 681574400
 BOARD_ODMIMAGE_PARTITION_SIZE := 157286400
 
+# Reserve space for gapps install
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := universal9810
