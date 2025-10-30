@@ -99,7 +99,6 @@ BOARD_ODMIMAGE_PARTITION_SIZE := 157286400
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
 # Platform
-BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := universal9810
 TARGET_SLSI_VARIANT := bsp
 TARGET_SOC := exynos9810
