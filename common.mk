@@ -56,8 +56,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor:64
 
 # Camera
-$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service_32.samsung \
     libGrallocMapperCamera
