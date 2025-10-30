@@ -52,11 +52,6 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_KERNEL_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET)
 
-# Camera
-SOONG_CONFIG_NAMESPACES += samsungCameraVars
-$(call soong_config_set,samsungCameraVars,usage_64bit,true)
-$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
-
 # Display
 BOARD_MINIMUM_DISPLAY_BRIGHTNESS := 1
 
